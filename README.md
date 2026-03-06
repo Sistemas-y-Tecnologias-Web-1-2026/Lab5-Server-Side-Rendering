@@ -1,23 +1,5 @@
 # Lab 5 — Server Side Rendering
 
-Servidor HTTP hecho en Go sin usar net/http.
-Implementa formularios HTML con POST y actualización con fetch() conectado a SQLite.
-
----
-
-## Funcionalidades Obligatorias
-
-- Manejo correcto de GET y POST
-- Parseo manual de body (Content-Length)
-- Inserción en SQLite
-- Redirección 303 (POST/Redirect/GET)
-- Botón +1 usando fetch()
-- Tabla generada dinámicamente desde la base de datos
-- Manejo de errores en DB
-- Uso de defer rows.Close() y defer db.Close()
-
----
-
 ## Challenges Implementados
 
 - Barra de progreso
@@ -29,12 +11,6 @@ Implementa formularios HTML con POST y actualización con fetch() conectado a SQ
 
 ---
 
-## Base de Datos
-
-El archivo `series.db` contiene al menos 4 series precargadas.
-
----
-
 ## Screenshot
 
-![Servidor corriendo](screenshot.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2a96e63e-4979-40ff-93e0-c792f302cd30" />
